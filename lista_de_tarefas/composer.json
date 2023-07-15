@@ -1,0 +1,17 @@
+{
+	"require": {
+		"php": ">= 8.0"
+	},
+	"authors": [
+		{
+			"name": "Pedro Matos",
+			"email": "pedro@teste.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
